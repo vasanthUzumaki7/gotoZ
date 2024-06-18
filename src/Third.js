@@ -43,7 +43,7 @@ const Third = () => {
           style={{ width: "400px", height: "400px" }}
           alt="Model Viewer"
           src={models[currentModelIndex]}
-          ar
+          ar ar-placement='floor'
           shadow-intensity="1"
           camera-controls
           touch-action="pan-y"
